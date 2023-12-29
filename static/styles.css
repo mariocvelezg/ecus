@@ -1,0 +1,45 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #322e2d;
+  color: #f6f0ee;
+}
+
+#logo {
+  width: 7rem;
+  height: 7rem;
+  object-fit: contain;
+  margin-top: 2rem;
+}
+
+h1 {
+  color: #efa82e;
+}
+
+a {
+  color: #fee389;
+}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
